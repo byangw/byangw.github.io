@@ -2,8 +2,8 @@
 layout: profiles
 permalink: /people/
 title: Bowen Yang
-description: <b>Ph.D. student</b> of ECE, HKUST, focus on Mobile Robots, Navigation, and Deep Learning.
-nav: true
+description: <b>Ph.D. student</b> of ECE, HKUST, focusing on Mobile Robots, Navigation, and Deep Learning.
+nav: false
 nav_order: 1
 
 profiles:
