@@ -20,9 +20,9 @@ social: false # includes social icons at the bottom of the page
 
 Hello, welcome to Bowen Yang's page. Currently I'm a Ph.D. student at [Department of Electronic and Computer Engineering (ECE)](https://ece.hkust.edu.hk/), the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Ming Liu. My research mainly focuses on the scene understanding and navigation problem of mobile robots in complex 3D environments. I'm also interested in SLAM, deep learning and 3D reconstruction.
 
-I received my bachelor degree at [Department of Electronic and Information Engineering (EIE)](https://www.polyu.edu.hk/eee/), the Hong Kong Polytechnic University (PolyU). After that, I worked as an exchange researcher in [Robotic Systems Lab (RSL)](https://rsl.ethz.ch/), Federal Institute of Technology Zurich (ETH Zurich).
+I received my bachelor degree at [Department of Electronic and Information Engineering (EIE)](https://www.polyu.edu.hk/eee/), the Hong Kong Polytechnic University (PolyU). After that, I worked as an exchange researcher in [Robotic Systems Lab (RSL)](https://rsl.ethz.ch/), Federal Institute of Technology Zurich (ETH Zurich) for one year.
 
-More details regarding my research works can be found on <a href="projects">Projects</a>. Please feel free to contact <a href="mailto:byangar@connect.ust.hk">me</a> if you are interested in my projects. Collaborations in any forms are welcomed!
+More details regarding my research works can be found on page <a href="projects">Projects</a>. Please feel free to contact <a href="mailto:byangar@connect.ust.hk">me</a> if you are interested in my projects. Collaborations in any forms are welcomed!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
