@@ -15,7 +15,7 @@ profile:
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 Hello, welcome to Bowen Yang's page. Currently I'm a Ph.D. student at [Department OF Electronic and Computer Engineering (ECE)](https://ece.hkust.edu.hk/), the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Ming Liu. My research mainly focuses on the scene understanding and navigation problem of mobile robots in complex 3D environments. I'm also interested in SLAM, deep learning and 3D reconstruction.
