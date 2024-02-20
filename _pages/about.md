@@ -9,7 +9,7 @@ profile:
   image: bowen_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Robotics Institute, ECE, HKUST</p>
+    <p>CKSRI, ECE, HKUST</p>
     <p>Hong Kong SAR, China</p>
 
 news: true # includes a list of news items
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, welcome to Bowen Yang's page. Currently I'm a Ph.D. student at [DEPARTMENT OF ELECTRONIC & COMPUTER ENGINEERING (ECE)](https://ece.hkust.edu.hk/), the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Ming Liu. My research mainly focuses on the scene understanding and navigation problem of mobile robots in complex 3D environments.
+Hello, welcome to Bowen Yang's page. Currently I'm a Ph.D. student at [Department OF Electronic and Computer Engineering (ECE)](https://ece.hkust.edu.hk/), the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Ming Liu. My research mainly focuses on the scene understanding and navigation problem of mobile robots in complex 3D environments. I'm also interested in SLAM, deep learning and 3D reconstruction.
 
 I received my bachelor degree at [Department of Electronic and Information Engineering (EIE)](https://www.polyu.edu.hk/eee/), the Hong Kong Polytechnic University (PolyU). After that, I worked as an exchange researcher in [Robotic Systems Lab (RSL)](https://rsl.ethz.ch/), Federal Institute of Technology Zurich (ETH Zurich).
 
