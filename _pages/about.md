@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Ph.D. student</b> of ECE, HKUST <br>  <br> Navigation, Deep Learning, Mobile Robot
+subtitle: <b>Ph.D. student</b> of ECE, HKUST <br>  <br> Mobile Robots, Navigation, Deep Learning
 
 profile:
   align: right
