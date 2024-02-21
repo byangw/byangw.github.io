@@ -12,7 +12,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "400px"
+            sizes="400px"
             class="preview z-depth-1 rounded"
             zoomable=false
             alt=entry.preview
@@ -39,22 +39,24 @@
     
   {% if entry.preview_video %}
     <div class="col-sm-4 {% if entry.preview_video %}preview_video{% else %}abbr{% endif %}">
-    {% if entry.preview_video %}
-      {% if entry.preview_video contains '://' %}
-        <img class="preview z-depth-1 rounded" src="{{ entry.preview_video }}">
-      {% else %}
-        {% assign entry_path = entry.preview_video | prepend: '/assets/img/publication_preview/'
-        %}
-      {% include figure.liquid
-      path=entry_path
-      sizes = "400px"
-      class="preview z-depth-1 rounded"
-      alt=entry.preview_video %}
+      {% if entry.preview_video %}
+        {% if entry.preview_video contains '://' %}
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview_video }}">
+        {% else %}
+          {% assign entry_path = entry.preview_video | prepend: '/assets/img/publication_preview/'%}
+          {% 
+            include figure.liquid
+            loading="eager"
+            path=entry_path
+            sizes="400px"
+            class="preview z-depth-1 rounded"
+            alt=entry.preview_video
+          %}
+        {% endif %}
       {% endif %}
-    {% endif %}
-  </div>
-  {% else %}
+    </div>
   {% endif %}
+{% endif %}
 
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
