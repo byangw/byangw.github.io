@@ -43,6 +43,14 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid loading="eager" path="assets/video/project/icra2021/1-1.mp4" title="corridor" class="video-fluid rounded z-depth-1" controls=true autoplay=true%}
+    </div>
+</div>
+<div class="caption">
+    Test video.
+</div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
