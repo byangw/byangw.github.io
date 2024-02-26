@@ -15,7 +15,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project/tmech2024/cover.png" width="75%" title="demo" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/tmech2024/cover_static.png" width="75%" title="demo" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
     </div>
 </div>
 
@@ -64,6 +64,8 @@ related_publications: false
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid loading="eager" path="assets/video/project/tmech2024/vid_2.mp4" width="100%" title="demo" class="video-fluid rounded z-depth-1 mx-auto d-block" controls=true loop=true autoplay=true muted=true %}
     </div>
+</div>
+<div class="row row-cols-2">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid loading="eager" path="assets/video/project/tmech2024/vid_3.mp4" width="100%" title="demo" class="video-fluid rounded z-depth-1 mx-auto d-block" controls=true loop=true autoplay=true muted=true %}
     </div>
@@ -96,7 +98,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project/tmech2024/baseline.png" width="75%" title="demo" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/tmech2024/baseline.png" width="100%" title="demo" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
     </div>
 </div>
 
@@ -106,13 +108,13 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project/tmech2024/table_2.png" width="75%" title="demo" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
+        {% include figure.liquid loading="eager" path="assets/img/project/tmech2024/table_2.png" width="100%" title="demo" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
     </div>
 </div>
 
 <div class="caption">
     Our quadrupedal robot successfully finished these navigation tasks in real-world experiments following the generated trajectories. 
-    In the "boxes" scenario, the robot actively adjusts its body height to avoid the overhangs and prefers to move up to the platform through the gentle slope as the slope has lower travel costs and is safer than the steep stairs.
+    In "boxes", the robot actively adjusts its body height to avoid the overhangs and prefers to move up to the platform through the gentle slope as the slope has lower travel costs and is safer than the steep stairs.
 </div>
 
 <div class="row row-cols-2">
