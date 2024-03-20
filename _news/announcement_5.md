@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our [paper](https://arxiv.org/abs/2309.10443) is accepted by **ICRA 2024**.
+Our paper [Rethinking Imitation-based Planner for Autonomous Driving](https://arxiv.org/abs/2309.10443) is accepted by **ICRA 2024**.
 
