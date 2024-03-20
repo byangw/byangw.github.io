@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Collection of my project demonstrations.
+description: Collection of project demonstrations.
 nav: true
 nav_order: 2
 display_categories: [pub, proj]
