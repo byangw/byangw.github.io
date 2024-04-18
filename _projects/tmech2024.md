@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Efficient Global Navigational Planning in 3D Structures based on Point Cloud Tomography
-description: Submitted to IEEE/ASME Transactions on Mechatronics
+description: Accepted by IEEE/ASME Transactions on Mechatronics
 img: assets/img/project/tmech2024/cover.gif
 importance: 99
 category: pub
