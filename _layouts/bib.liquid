@@ -92,14 +92,14 @@
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
-            {% assign self_shown = true %}
           {% endif %}
         {%- endif -%}
 
-        {%- if self_shown and n_author + 1 > author_array_limit -%}
-          {% continue %}
+        {%- assign author_idx = n_author | plus: 1 -%}
+        {%- if self_shown and author_idx > author_array_limit -%}
+          {%- continue -%}
         {%- endif -%}
-        {% increment n_author %}
+        {%- increment n_author -%}
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
@@ -132,6 +132,11 @@
             {{ author.last }}
           {% endif %}
         {%- endif -%}
+
+        {%- if author_is_self -%}
+          {% assign self_shown = true %}
+        {%- endif -%}
+
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: n_author -%}
 
