@@ -99,7 +99,7 @@
         {%- if self_shown and author_idx > author_array_limit -%}
           {% continue %}
         {%- endif -%}
-        {%- increment n_author -%}
+        {%- assign n_author = n_author | plus: 1 -%}
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
