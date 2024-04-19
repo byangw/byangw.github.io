@@ -97,7 +97,7 @@
 
         {%- assign author_idx = n_author | plus: 1 -%}
         {%- if self_shown and author_idx > author_array_limit -%}
-          {%- continue -%}
+          {% continue %}
         {%- endif -%}
         {%- increment n_author -%}
 
