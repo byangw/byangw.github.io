@@ -83,10 +83,11 @@
       {% endif %}
 
       {% assign self_shown = false %}
-      var n_author = 0;
+      {% assign n_author = 0 %}
 
       {%- for author in entry.author_array limit: author_array_size -%}
         {% assign author_is_self = false %}
+
         {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
@@ -95,9 +96,10 @@
           {% endif %}
         {%- endif -%}
 
-        {%- if self_shown and ++n_author > author_array_limit -%}
+        {%- if self_shown and n_author + 1 > author_array_limit -%}
           {% continue %}
         {%- endif -%}
+        {% increment n_author %}
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
@@ -131,7 +133,7 @@
           {% endif %}
         {%- endif -%}
       {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+      {%- assign more_authors = author_array_size | minus: n_author -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
       {% if more_authors > 0 %}
@@ -139,7 +141,7 @@
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
         {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
+        {%- for author in entry.author_array offset: n_author -%}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
